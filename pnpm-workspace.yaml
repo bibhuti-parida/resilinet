@@ -1,0 +1,13 @@
+packages:
+  - frontend-nextjs
+  - backend-ai
+
+supportedArchitectures:
+  os:
+    - win32
+  cpu:
+    - x64
+
+allowBuilds:
+  msw: false
+  sharp: false

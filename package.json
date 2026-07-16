@@ -1,0 +1,9 @@
+{
+  "name": "resilinet-workspace",
+  "private": true,
+  "packageManager": "pnpm@11.13.1",
+  "scripts": {
+    "dev:frontend": "pnpm --dir frontend-nextjs dev",
+    "build:frontend": "pnpm --dir frontend-nextjs build"
+  }
+}

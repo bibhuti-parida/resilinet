@@ -1,0 +1,37 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+*.tsbuildinfo
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Runtime-generated backend model and local state
+backend-ai/disaster_triage_model.pkl
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+*.out
+*.err
+
+# Local tooling and editor files
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db

@@ -21,6 +21,7 @@ app = FastAPI(title="ResiliNet AI Triage", version="1.0.0", lifespan=lifespan)
 # Allows all localhost/127.0.0.1 Next.js ports, including 3000, 3001, and 3002.
 app.add_middleware(
     CORSMiddleware,
+    allow_origins=["https://resilinet-sooty.vercel.app"],
     allow_origin_regex=r"^https?://(localhost|127\.0\.0\.1)(:\d+)?$",
     allow_credentials=True,
     allow_methods=["*"],

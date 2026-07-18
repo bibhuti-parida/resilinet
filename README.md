@@ -1,5 +1,5 @@
 # Resilinet
-## 🌐 Live Links
+##  Live Links
 Frontend:https://resilinet-sooty.vercel.app/ ** [ResiliNet Triage App]
 Backend:https://resilinet-1.onrender.com/health ** [Live API]
 

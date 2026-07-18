@@ -32,12 +32,12 @@ Make sure you have the following installed on your local machine:
 ```bash
 git clone [https://github.com/bibhuti-parida/resilinet.git](https://github.com/bibhuti-parida/resilinet.git)
 cd resilinet
-### 2. Monorepo Dependency Installation
+2. Monorepo Dependency Installation
 This project uses `pnpm` workspaces to manage dependencies for both the frontend and backend applications from the root directory.
 
 ```bash
-# Install all dependencies across the workspace
-pnpm install
+Install all dependencies across the workspace
+  pnpm install
 
 3. Frontend Setup (frontend-nextjs)
 Navigate to the frontend directory:
